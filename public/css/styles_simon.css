@@ -1,0 +1,78 @@
+body {
+  text-align: center;
+  background-image: linear-gradient(to top, #9795f0 0%, #fbc8d4 100%);
+  padding-bottom: 50px;
+}
+
+h3 {
+  font-family: 'Varela Round', sans-serif;
+  margin:  5%;
+  color: #A084DC;
+  font-size: 3rem;
+}
+
+#level-title {
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 5rem;
+  margin:  5%;
+  color: #A084DC;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+  margin-top: 3vmax;
+}
+
+.goButton {
+  border-radius: 100%;
+  padding: 1.5%;
+  display: inline-block;
+  font-size: 2rem;
+  background-color: #ABC270;
+  font-family: 'Varela Round', sans-serif;
+  color: #FEF2BF;
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 20%;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: #F48484;
+}
+
+.green {
+  background-color: #c1ec64;
+}
+
+.blue {
+  background-color: #8DCBE6;
+}
+
+.yellow {
+  background-color: #FFD56F;
+}
+
+.foot {
+  margin-top: 5vmax;
+  font-family: 'Fjalla One', sans-serif;
+  color: #FEF2BF;
+  font-size: 3rem;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}

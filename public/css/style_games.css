@@ -1,0 +1,270 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900");
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Poppins", sans-serif;
+}
+body{
+    overflow-x: hidden;
+}
+
+header{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    /* background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%); */
+    padding-bottom: 20px;
+    /* background-image: linear-gradient(60deg, #29323c 0%, #485563 100%); */
+    /* background-color: #E8D2A6; */
+    background-color: #301E67;
+}
+.name-sm{
+    color: #4c4ca0;
+    font-family: 'Dancing Script', cursive;
+    position: absolute;
+    font-size: 2.2rem;
+    margin-left: 32vmax;
+    display: none;
+}
+.disp{
+    opacity: 0;
+}
+header img{
+    height: 13vmax;
+    width: 13vmax;
+}
+.nav-list{
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 3vmax;
+}
+header div a{
+    text-decoration: none;
+    /* color: #fff; */
+    color: #C1AEFC;
+    /* font-family: 'Oswald', sans-serif; */
+    font-family: 'Dosis', sans-serif;
+    font-size: 2vmax;
+    padding-right: 0.7vmax;
+}
+.signDiv{
+    margin-top: 5.5vmax;
+}
+.sign-in{
+    text-decoration: none;
+    color: #fff;
+    
+    /* font-family: 'Oswald', sans-serif; */
+    font-family: 'Dosis', sans-serif;
+    font-size: 1.5vmax;
+    /* border: 1px solid black; */
+    padding: 0.6vmax 1.8vmax;
+   
+    /* background-image: linear-gradient(to right, #3f51b1 0%, #5a55ae 13%, #7b5fac 25%, #8f6aae 38%, #a86aa4 50%, #cc6b8e 62%, #f18271 75%, #f3a469 87%, #f7c978 100%); */
+    background-image: linear-gradient(to right, #ff0844 0%, #ffb199 100%);
+
+    height: 2vmax;
+    border-radius: 0.8vmax;
+}
+
+section {
+	/* display: flex; */
+	/* background: #000; */
+    /* background-image: linear-gradient(45deg, #874da2 0%, #c43a30 100%); */
+    flex-direction: row;
+	min-height: 100vh;
+	align-items: center;
+	justify-content: center;
+    /* background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%); */
+    /* background-image: linear-gradient(to left, #c71d6f 0%, #d09693 100%); */
+    /* background-image: linear-gradient(-45deg, #FFC796 0%, #f3386d 100%); */
+    background-image: linear-gradient( 225deg, #551db0 10%, #BC78EC 100%);
+    padding-bottom: 100px;
+    /* 3B2667 */
+}
+section h4{
+    position: relative;
+    width: 500px;
+    font-size: 2vmax;
+    top: 10vmax;
+    left: 6.5vmax;
+    color: #3D1766;
+    font-family: 'Oswald', sans-serif;
+}
+.intro{
+    height: 30vmax;
+    margin-left: 6vmax;
+    display: inline-flex;
+    margin-top: 10vmax;
+}
+.content {
+	height: 10vmax;
+    width: 50%;
+}
+.content p{
+    position: relative;
+    margin-top: 2vmax;
+    padding-top: 8vmax;
+    font-size: 2rem;
+    font-family: 'Ubuntu', sans-serif;
+    /* font-family: 'Averia Libre', cursive; */
+    font-weight: bolder;
+    line-height: 3rem;
+    /* color: #2d0052; */
+    color: #060047;
+}
+.content h2 {
+	color: #fff;
+	font-size: 5em;
+	position: absolute;
+	/* transform: translate(0%, 0%); */
+    width: 500px;
+}
+
+.content h2:nth-child(1) {
+	color: transparent;
+	-webkit-text-stroke: 2px #5D3891;
+}
+
+.content h2:nth-child(2) {
+	color: #C1AEFC;
+	animation: animate 4s ease-in-out infinite;
+}
+
+@keyframes animate {
+	0%,
+	100% {
+		clip-path: polygon(
+			0% 45%,
+			16% 44%,
+			33% 50%,
+			54% 60%,
+			70% 61%,
+			84% 59%,
+			100% 52%,
+			100% 100%,
+			0% 100%
+		);
+	}
+
+	50% {
+		clip-path: polygon(
+			0% 60%,
+			15% 65%,
+			34% 66%,
+			51% 62%,
+			67% 50%,
+			84% 45%,
+			100% 46%,
+			100% 100%,
+			0% 100%
+		);
+	}
+}
+.hero-image{
+    margin-left: 5vmax;
+    margin-top: -2vmax;
+}
+.games{
+    position: relative;
+    display: inline-flex;
+    margin-left: 7vmax;
+    margin-top: 10vmax;
+    gap: 60px;
+    width: 1500px;
+}
+.games p{
+    height: 120px;
+}
+.row1{
+    display: inline-flex;
+    gap: 4vmax;
+}
+.row2{
+    display: inline-flex;
+    position: relative;
+    left: -90vmax;
+    margin-top: 30vmax;
+    gap: 4vmax;
+}
+.card{
+    width: 400px;
+    height: 350px;
+    /* background-color: #FF6B95; */
+    background-color: #b196e3;
+    padding: 20px;
+    box-shadow: 0 0 15px #662d91;
+    border-radius: 5px;
+}
+.card div{
+    overflow: hidden;
+    width: 350px;
+    height: 60px;
+}
+.card div{
+    margin-bottom: 20px;
+}
+/* .games img{
+    width: 300px;
+    height: 50px;
+} */
+.btn {
+    display: block;
+    margin: 20px 0px;
+    padding: 10px 25px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    /* color: white; */
+    color: #472183;
+    font-weight: bold;
+   /* text-shadow: 0px 0px 10px rgba(0,0,0,0.2);*/
+    box-shadow: 0 0 10px #662d91;
+    border-radius: 10px;
+    width: 200px;
+    text-decoration: none;
+    font-size: 1.2rem;
+   }
+  
+  /* Demo Stuff End -> */
+  
+  /* <- Magic Stuff Start */
+  
+  .btn:hover {
+    background-position: right center; /* change the direction of the change here */
+  }
+  .btn1{
+    background-image: linear-gradient(to right, #fbc2eb 0%, #a6c1ee 51%, #fbc2eb 100%);
+  }
+  .btn2{
+    /* background-image: linear-gradient(to right, #84fab0 0%, #8fd3f4 51%, #84fab0 100%); */
+    background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 51%, #ffecd2 100%);
+  }
+  .btn3{
+    background-image: linear-gradient(to right, #a1c4fd 0%, #c2e9fb 51%, #a1c4fd 100%);
+  }
+  .btn4{
+    background-image: linear-gradient(to right, #8798fa 0%, #8d89e0 13%, #ba92ff 25%, #c18eeb 38%, #e498df 50%, #cc6b8e 62%, #f18271 75%, #f3a469 87%, #f7c978 100%);
+  }
+  .btn5{
+    background-image: linear-gradient(to right, #ff5ba8 0%, #e6b1ff 49%, #ffc8a9 100%);
+  }
+  .btn6{
+    background-image: linear-gradient(to right, #d5dee7 0%, #f5e596 0%, #a7ff98 100%);
+  }
+/* .card a{
+    background-color: #5D3891;
+    padding: 15px 25px;
+    border-radius: 25px;
+    color: #fff;
+    box-shadow: 0 0 20px #eee;
+    transition: 0.5s;
+    background-image: linear-gradient(to right, #fbc2eb 0%, #a6c1ee 51%, #fbc2eb 100%);
+}
+.card a:hover{
+    background-position: right center;
+} */

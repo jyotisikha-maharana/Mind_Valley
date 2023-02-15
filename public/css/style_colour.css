@@ -1,0 +1,25 @@
+body{
+    background-image: linear-gradient(to top, #d299c2 0%, #fef9d7 100%);
+    overflow-x: hidden;
+}
+div{
+    position: relative;
+    left: 18vmax;
+    margin-top: 4vmax;
+    width: 980px;
+    box-shadow: 0 0 10px #fff;
+}
+.img1{
+    position: absolute;
+    left: -1vmax;
+    top: -7vmax;
+}
+.img1 img{
+    width: 300px;
+    height: 300px;
+}
+.img2{
+    position: absolute;
+    left: 80vmax;
+    bottom: 1vmax;
+}

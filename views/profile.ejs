@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/css/styles_profile.css">
+    <script src="https://kit.fontawesome.com/3db6e510e5.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+  <table >
+    <tr>
+      <td>
+        <div class="side-bar">
+          <div class="d-flex align-items-start "><ul class="list">
+            <li class="bar-heading"><h3 >Welcome <br><%= NAME %></div></h3></li>
+          </ul>
+          <div class="d-flex align-items-center bar">
+            <ul class="list">
+              <a href="/profile"><li class="bar-item">Dashboard</li></a>
+              <a href="/"><li class="bar-item">Home</li></a>
+              <li class="bar-item"> <a href="/checkups">Tests</a> </li>
+              <li class="bar-item">History</li>
+            </ul>
+          </div>
+          <div class="d-flex align-items-end bar-bottom "> 
+            <ul class="list">
+              <li><H4>Need Our Help? </H4><br>
+               <a class="contact" href="/contact">Contact us</a>  </li>
+            </ul>
+          </div>
+        </div>
+      </td>
+      <td class="content ">
+        
+         <table><tr><td>
+          <!-- <h3 class="user"> <%= NAME %></h3> -->
+        </td><td><button type="button" class="btn btn-outline-primary user-button">Active</button></td></tr></table>
+         <center><div class="card-container shadow">
+          <img src="/img/home/testimonial1.png" class="profile_img" alt="">
+          <h4 class=""><%= NAME %></h4>
+          <h5> Gender : Female</h5>
+          <h5> Date of Birth: 24/02/2002</h5>
+           <h5>Country : India</h5>
+       </div></center>
+        
+        </div>
+      </div>
+    <center>
+      <div class="profile-bottom shadow">    
+        <i class="fa fa-user fa-5x" aria-hidden="true"></i>
+        <a href="">Medical History</a>
+      </div>
+
+      <div class="profile-bottom below shadow">    
+        <i class="fa fa-user fa-5x" aria-hidden="true"></i>
+        <a href="">Appointments</a>
+      </div>
+  
+    </center>
+        
+        
+      </td>
+      <td>
+        
+        <div class="journal-profile shadow"><h3>Resources</h3>
+          <p>Emotional and mental health is important because it’s a vital part of your life and impacts your thoughts, behaviors and emotions. Being healthy emotionally can promote productivity and effectiveness in activities like work, school or caregiving. It plays an important part in the health of your relationships, and allows you to adapt to changes in your life and cope with adversity.</p>
+          <div class="first-r">
+            <div class="resource r1">
+              <!-- <div class="res-img"> -->
+                <img src="/images_profile/r1.png" alt="">
+              <!-- </div> -->
+              <a href="https://doctorondemand.com/blog/mental-health/why-its-important-to-care-for-your-mental-health/">Click Here</a>
+            </div>
+  
+            <div class="resource r2">
+              <!-- <div class="res-img">  -->
+                <img src="/images_profile/r2.png" alt="">
+              <!-- </div> -->
+              <a href="https://www.colorado.edu/law/25-quick-ways-reduce-stress">Click Here</a>
+            </div>
+          </div>
+          
+          <div class="second-r">
+            <div class="resource r3">
+              <!-- <div class="res-img"> -->
+                <img src="/images_profile/r3.png" alt="">
+              <!-- </div> -->
+              <a href="https://www.webmd.com/depression/features/natural-treatments">Click Here</a>
+            </div>
+  
+            <div class="resource r4">
+              <!-- <div class="res-img"> -->
+                <img src="/images_profile/r4.png" alt="">
+              <!-- </div> -->
+              <a href="https://www.lifeinabreakdown.com/the-importance-of-taking-care-of-your-mental-health/">Click Here</a>
+            </div>
+          </div>
+          
+
+          <!-- <div class="journal-form">
+          <form action="/profile" method="post">
+            <input type="text" value="journal" class="journal-textbox"><br>
+            <center><button type="submit" class="journal-button">Add to content</button></center>
+          </form>
+        </div> -->
+       
+      </div>
+        
+        
+      </td>
+      
+    </tr>
+</table>
+     
+</body>
+</html>

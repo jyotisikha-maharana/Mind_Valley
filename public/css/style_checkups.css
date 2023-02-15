@@ -1,0 +1,198 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+section{
+    /* position: relative;
+    display: flex;
+    flex-direction: column; */
+    /* background-image: linear-gradient(to right bottom, #fecee1, #f2c4e2, #e1bbe4, #ccb4e7, #b2aee8, #99b5ee, #80bbef, #68c1ea, #6dd0e1, #87dcd5, #aae5cb, #ceedc7); */
+    /* background-color: #FA8BFF;
+    background-image: linear-gradient(45deg, #FA8BFF 0%, #2BD2FF 52%, #2BFF88 90%); */
+    /* background-image: linear-gradient(-225deg, #5271C4 0%, #B19FFF 48%, #ECA1FE 100%); */
+    background-image: url(/images_checkups/download.png);
+    background-repeat: no-repeat;
+    background-size: 135vmax;
+    width: 100%;
+    height: 100%;
+    contain: content;
+
+}
+/* section svg{
+    position: absolute;
+    margin-top: 250px;
+} */
+header{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 20px;
+    
+}
+.name-sm{
+    color: #4c4ca0;
+    font-family: 'Dancing Script', cursive;
+    position: absolute;
+    font-size: 2.2rem;
+    margin-left: 32vmax;
+    display: none;
+}
+.disp{
+    opacity: 0;
+}
+header img{
+    height: 13vmax;
+    width: 13vmax;
+    padding-left: 4vmax;
+}
+.nav-list{
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 3vmax;
+    padding-left: 9vmax;
+}
+header div a{
+    text-decoration: none;
+    /* color: #fff; */
+    color: #6F69AC;
+    /* font-family: 'Oswald', sans-serif; */
+    font-family: 'Dosis', sans-serif;
+    font-size: 2vmax;
+    padding-right: 0.7vmax;
+}
+.signDiv{
+    margin-top: 5.5vmax;
+    padding-left: 4vmax;
+}
+.sign-in{
+    text-decoration: none;
+    color: #fff;
+    
+    /* font-family: 'Oswald', sans-serif; */
+    font-family: 'Dosis', sans-serif;
+    font-size: 1.5vmax;
+    /* border: 1px solid black; */
+    padding: 0.6vmax 1.8vmax;
+    /* background-color: #FFFBAC; */
+    /* background-color: #FFF89A; */
+    /* background-color: #FFFBAC; */
+    /* background-color: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,108,1) 12%, rgba(0,212,255,1) 100%); */
+    background: #ff00cc;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #4c4ca0, #fa72df);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #4c4ca0, #fa72df); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    height: 2vmax;
+    border-radius: 0.8vmax;
+}
+.tools{
+    margin-top: 5vmax;
+    /* background-image: linear-gradient(to right, #434343 0%, black 100%); */
+    background-image: linear-gradient(to top, #3b41c5 0%, #a981bb 49%, #ffc8a9 100%);
+    margin: 40px;
+    border-radius: 25px;
+}
+
+.above{
+    display: inline-flex;
+}
+.above div{
+    width: 50%;
+}
+.tools-text{
+    padding-left: 5vmax;
+    align-self: center;
+}
+.tools-text h1{
+    /* text-align: center; */
+    font-size: 5rem;
+    font-family: 'Russo One', sans-serif;
+
+/* background: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%); */
+/* background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%); */
+/* background-image: linear-gradient(to right, #30cfd0 0%, #330867 100%); */
+/* background-image: linear-gradient(to left, #dbdcd7 0%, #dddcd7 24%, #e2c9cc 30%, #e7627d 46%, #b8235a 59%, #801357 71%, #3d1635 84%, #1c1a27 100%); */
+/* background-image: linear-gradient(to top, #3f51b1 0%, #5a55ae 13%, #7b5fac 25%, #8f6aae 38%, #a86aa4 50%, #cc6b8e 62%, #f18271 75%, #f3a469 87%, #f7c978 100%); */
+/* background-image: linear-gradient(to top, #fcc5e4 0%, #fda34b 15%, #ff7882 35%, #c8699e 52%, #7046aa 71%, #0c1db8 87%, #020f75 100%); */
+/* background-image: linear-gradient(-225deg, #231557 0%, #44107A 29%, #FF1361 67%, #FFF800 100%); */
+background: #c31432;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #240b36, #c31432);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #240b36, #c31432); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+
+        
+
+    
+}
+.tools-text p{
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 2rem;
+    color: #F7EFE5;
+
+}
+
+.cards-list {
+    z-index: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 5vmax;
+  }
+  
+  .card {
+    margin: 30px auto;
+    width: 300px;
+    height: 300px;
+    border-radius: 40px;
+  box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
+    cursor: pointer;
+    transition: 0.4s;
+  }
+  
+  .card .card_image {
+    width: inherit;
+    height: inherit;
+    border-radius: 40px;
+  }
+  
+  .card .card_image img {
+    width: inherit;
+    height: inherit;
+    border-radius: 40px;
+    object-fit: cover;
+  }
+  
+  .card .card_title {
+    text-align: center;
+    border-radius: 0px 0px 40px 40px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: -80px;
+    height: 40px;
+    font-family: 'Cabin', sans-serif;
+  }
+  
+  .card:hover {
+    transform: scale(0.9, 0.9);
+    box-shadow: 5px 5px 30px 15px rgba(0,0,0,0.25), 
+      -5px -5px 30px 15px rgba(0,0,0,0.22);
+  }
+  
+  .title-white {
+    color: white;
+  }
+  
+  .title-black {
+    color: black;
+  }
+  
+  @media all and (max-width: 500px) {
+    .card-list {
+      /* On small screens, we are no longer using row direction but column */
+      flex-direction: column;
+    }
+  }
