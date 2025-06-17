@@ -21,11 +21,7 @@ A full-stack web application that promotes mental well-being by offering users i
 **Database**: MongoDB  
 **Other Tools**: Bootstrap, REST APIs, Authentication
 
-## 🚀 Running Locally
 
-1. Clone the repo:
-   ```bash
-   git clone https://github.com/jyotisikha-maharana/Mind_Valley.git
 
 
 #Steps to open our website:
