@@ -1,6 +1,33 @@
 # Mind-Valley
 Project made for project exhibition 2
 
+# 🧠 Mind Valley
+
+A full-stack web application that promotes mental well-being by offering users interactive tools, therapist resources, videos, and more.
+
+## 🌟 Features
+
+- 🎥 Mental health videos (breathing, calming sounds)
+- 🧑‍⚕️ List of nearby therapists (with reviews)
+- 🎮 Games to boost positivity
+- 📚 Articles for common mental health challenges
+- 🤖 Chatbot with quick help links
+- ☎️ Emergency helpline numbers
+
+## 💻 Tech Stack
+
+**Frontend**: HTML, CSS, JavaScript, React.js  
+**Backend**: Node.js, Express.js  
+**Database**: MongoDB  
+**Other Tools**: Bootstrap, REST APIs, Authentication
+
+## 🚀 Running Locally
+
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/jyotisikha-maharana/Mind_Valley.git
+
+
 #Steps to open our website:
 -clone this repo
 -You should have nodeJS and MongoDB 
